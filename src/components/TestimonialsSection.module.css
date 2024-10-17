@@ -6,6 +6,7 @@
     display: flex;
     gap: 56px;
     padding: 43px;
+    align-items: center;
     justify-content: center;
 }
 
