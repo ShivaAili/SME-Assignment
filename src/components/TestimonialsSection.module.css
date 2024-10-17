@@ -1,0 +1,31 @@
+/* src/components/TestimonialsSection.module.css */
+.testimonialsSection {
+    padding: 40px;
+    text-align: center;
+    background-color: #f7f9fc;
+    display: flex;
+    gap: 56px;
+    padding: 43px;
+    justify-content: center;
+}
+
+.cardsContainer {
+    margin-bottom: 10px;
+}
+.cardsContainer div:nth-child(2) {
+    margin-left: 50px; /* Adjust this value as per your need */
+}
+
+.testimonialsSection h2 {
+    font-size: 2rem;
+    text-align: left;
+    color: #0056b3;
+}
+
+.testimonialsSection p {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: left;
+    /* margin: 20px 0; */
+}
+

@@ -1,0 +1,21 @@
+.jobListings {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr); /* 3 cards per row */
+    gap: 20px; /* Space between the cards */
+    padding: 20px;
+    justify-content: center; /* Center the grid horizontally */
+    max-width: 1000px; /* Limit the width to avoid too much space on larger screens */
+    margin: 0 auto; /* Center the container itself */
+}
+
+@media (max-width: 1024px) {
+    .jobListings {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .jobListings {
+        grid-template-columns: 1fr; /* 1 card per row on small screens */
+    }
+}

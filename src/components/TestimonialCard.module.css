@@ -1,0 +1,65 @@
+/* src/components/TestimonialCard.module.css */
+.testimonialCard {
+    background: linear-gradient(rgb(255 229 229), rgb(215 217 250));    border-radius: 8px;
+    padding: 20px;
+    width: 420px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.testimonialHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonialTag {
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.stars {
+    color: gold;
+}
+
+.testimonialText {
+    font-size: 1rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 7px;
+    background: white;
+    width: max-content;
+    height: 70px;
+    border-radius: 25px;
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profileName {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.profileRole {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0px;
+}

@@ -1,0 +1,45 @@
+.platformSection {
+    display: flex;
+    justify-content: space-between; /* Aligns text and image */
+    align-items: center; /* Centers items vertically */
+    background: linear-gradient(to right, #0e0c5d, #f75e5e);
+    padding: 40px;
+  }
+
+  .platformContent {
+    flex: 1;
+    max-width: 600px; /* Limits the text width */
+    text-align: left;
+    position: relative;
+    left: 8%;
+  }
+  .platformContent h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .platformInside{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* Add padding inside the border for spacing */
+.platformImageContainer {
+    border: 7px solid #c2c0c0;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+/* Ensure the image scales properly within the container */
+.platformImage {
+    height: auto;
+    display: block;
+    margin: 0 auto; /* This centers the image */
+    border-radius: 20px;
+}

@@ -1,0 +1,59 @@
+.blogSectionHeading {
+    padding: 20px;
+    text-align: center;
+}
+
+.blogSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    background: linear-gradient(rgb(255 229 229), rgb(215 217 250));
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+}
+
+.content {
+    display: flex; /* Create a flex container for image and name */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space below the content */
+}
+
+.image {
+    width: 50px; /* Set width for the image */
+    height: 50px; /* Set height for the image */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.nameContainer {
+    display: flex; /* Use flexbox for name and designation */
+    flex-direction: column; /* Stack name and designation vertically */
+}
+
+.name {
+    font-weight: bold;
+}
+
+.designation {
+    color: #666; /* Gray color for designation */
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+    font-size: 1em;
+}
