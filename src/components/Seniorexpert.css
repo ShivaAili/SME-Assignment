@@ -584,10 +584,10 @@ p {
 .text-content h1 {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  color: white;
 }
 
 .text-content p {
-  font-size: 1.2rem;
   margin-bottom: 20px;
   color: white;
 }
